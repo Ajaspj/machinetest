@@ -11,7 +11,7 @@ class ProductDetailView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          product.name.toString(),
+          "Details",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         backgroundColor: Colors.deepPurple,
